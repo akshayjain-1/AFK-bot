@@ -16,7 +16,7 @@ def random_mouse_movement():
         x = random.randint(500, 700) # X position of the mouse from 500 to 700
         y = random.randint(100, 800) # Y position of the mouse from 100 to 800
         pag.moveTo(x, y, 0.25) # Moves the mouse to (x,y) for 0.5 seconds 
-        time.sleep(2) # Sleeps for 15 seconds before making another movement
+        time.sleep(15) # Sleeps for 15 seconds before making another movement
 
 if __name__ == "__main__":
     random_mouse_movement()
